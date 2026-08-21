@@ -102,3 +102,10 @@ A atividade será considerada concluída quando o estudante:
 * abrir o Pull Request;
 * apresentar uma descrição adequada da contribuição;
 * responder às solicitações feitas durante o Code Review, quando houver.
+
+
+
+
+ALTERAÇÃO 
+
+Em vez de usar range(len()) para percorrer os índices, o Python permite iterar diretamente sobre os elementos da lista e usar as funções prontas sum() e len().
