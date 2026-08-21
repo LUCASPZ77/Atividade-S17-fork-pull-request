@@ -1,10 +1,6 @@
 notas = [7, 8, 6, 10, 5]
 
-s = 0
-
-for i in range(len(notas)):
-    s = s + notas[i]
-
-media = s / len(notas)
+# sum() soma todos os elementos e len() conta quantos são
+media = sum(notas) / len(notas)
 
 print("Média final:", media)
